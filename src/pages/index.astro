@@ -34,7 +34,14 @@ const metadata = {
     ]
   } -->
 
-  <Hero image={{ src: '~/assets/images/hero-image.png', alt: 'FL ventures logo' }}>
+  <Hero
+    image={{
+      src: '~/assets/images/hero-image.png',
+      alt: 'FL ventures logo',
+      width: 600,
+      height: 300,
+    }}
+  >
     <!-- <Fragment slot='title'>
       Free template for <span class='hidden xl:inline'>creating websites with</span>
       <span class='text-accent dark:text-white highlight'> Astro 4.0</span> + Tailwind CSS
@@ -44,9 +51,10 @@ const metadata = {
       <span class='hidden sm:inline'>
         <h1 class='mb-5 text-6xl font-bold'>FL Ventures</h1>
         <div class='text-xl'>
-          <span class='font-bold'>FL Ventures</span> is an early-stage investment company & venture studio, focused on building
-          and scaling global tech ventures. Portfolio companies include start-ups in: travel, property & real-estate, web
-          3.0, finance, climate, and longevity.
+          <span class='font-bold'>FL Ventures</span> is an early-stage investment
+          company & venture studio, focused on building and scaling global tech ventures.
+          Portfolio companies include start-ups in: travel, property & real-estate,
+          web 3.0, finance, climate, and longevity.
         </div>
       </span>
     </Fragment>
